@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+
+main, nav {
+  font-family: 'Sintony', sans-serif;
+ 
+}
+#welcome-section {
+  display: flex;
+  height: 100vh;
+  background: rgb(68, 126, 40);
+}
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+#navbar ul {
+  position: fixed;
+  top: 5px;
+  index: -1;
+  width: 90%;
+  display: flex;
+  
+  justify-content: flex-end; 
+}
+#navbar li {
+  padding: 10px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+h1, #git-link, #contact {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.project-tile {
+  position: relative;
+  margin: auto;
+  left: 40%;
+}
+
+@media (max-width: 600px) {
+  nav {
+    background-color: grey;
+  }
+}
+
+#contact {
+  height: 100vh;  
+}
